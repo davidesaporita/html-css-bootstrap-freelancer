@@ -71,7 +71,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-h3 {
+h4 {
   font-size: 18px;
 }
 
@@ -160,7 +160,6 @@ p {
 }
 
 /* Main - Contact Me */
-
 #contact-me .form-control {
   height: 60px;
   padding-right: 0;
@@ -221,4 +220,53 @@ p {
   background-color: #2C3E50;
   color: #fff;
   font-size: 14px;
+}
+
+/* Responsive - Medium Devices */
+@media all and (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .ds_starline::before {
+    width: 250px;
+  }
+
+  #main-header {
+    margin-bottom: 50px;
+  }
+
+  #presentation > .container {
+    height: 580px;
+  }
+
+  #portfolio {
+    margin-bottom: 50px;
+  }
+
+  #about .container {
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  #about a {
+    margin: 15px 0 60px;
+  }
+
+  #contact-me {
+    padding-bottom: 60px;
+  }
+}
+
+/* Responsive - Large Devices */
+@media all and (min-width: 992px) {
+
 }
