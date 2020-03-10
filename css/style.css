@@ -250,6 +250,10 @@ p {
     margin-bottom: 50px;
   }
 
+  #main-header a.navbar-brand {
+    font-size: 26px;
+  }
+
   #presentation > .container {
     height: 560px;
   }
