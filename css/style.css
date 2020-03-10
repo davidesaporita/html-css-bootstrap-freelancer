@@ -110,11 +110,20 @@ p {
 
 #main-header button {
   margin-top: 22px;
+  background-color: transparent;
 }
 
 #main-header a.navbar-brand {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
+}
+
+#main-header .navbar-collapse {
+  margin-top: 27px;
+}
+
+#main-header .navbar-collapse a {
+  line-height: normal;
 }
 
 /* Header - Presentation */
