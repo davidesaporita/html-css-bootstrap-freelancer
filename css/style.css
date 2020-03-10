@@ -220,15 +220,7 @@ p {
 /* Responsive - Medium Devices */
 @media all and (min-width: 768px) {
   #main-header .navbar-collapse {
-    /* margin-top: 27px; */
-  }
-
-  #main-header .ds_navbar .navbar-right a {
-    /* line-height: 60px; */
-  }
-
-  #main-header .navbar-collapse a {
-    /* line-height: normal; */
+    margin-top: 21px;
   }
 }
 
