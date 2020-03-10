@@ -1,6 +1,7 @@
 /* Generals */
 body {
   padding-top: 90px;
+  font-size: 20px;
 }
 
 button {
@@ -170,4 +171,45 @@ p {
 #contact-me ::placeholder {
   font-size: 18px;
   color: #000;
+}
+
+#contact-me {
+  padding-bottom: 30px;
+}
+
+/* Footer - Background #3B546D */
+#main-footer {
+  padding-top: 50px;
+  background-color: #3B546D;
+  color: #fff;
+}
+
+#main-footer .container > .row > div {
+  padding-bottom: 30px;
+}
+
+#main-footer ul > li {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+#main-footer i {
+  line-height: 50px;
+  font-size: 18px;
+  color: white;
+}
+
+#main-footer a {
+  color: #1ABC9C;
+}
+
+#copyright {
+  padding: 50px 0;
+  background-color: #2C3E50;
+  color: #fff;
+  font-size: 14px;
 }
