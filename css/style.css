@@ -3,6 +3,10 @@ body {
   padding-top: 90px;
 }
 
+button {
+  color: white;
+}
+
 /* Utilities */
 
 .ds_starline {
@@ -146,3 +150,24 @@ p {
 }
 
 /* Main - Contact Me */
+
+#contact-me .form-control {
+  height: 60px;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 18px;
+}
+
+#contact-me textarea.form-control {
+  height: 120px;
+}
+
+#contact-me ::placeholder {
+  font-size: 18px;
+  color: #000;
+}
