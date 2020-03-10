@@ -5,13 +5,14 @@ body {
 
 /* Utilities */
 
-.starline {
+.ds_starline {
   position: relative;
   height: 30px;
   margin-bottom: 24px;
+  color: #fff;
 }
 
-.starline::before {
+.ds_starline::before {
   content: '';
   position: absolute;
   width: 200px;
@@ -25,7 +26,7 @@ body {
   border-radius: 4px;
 }
 
-.starline > div {
+.ds_starline > div {
   position: absolute;
   width: 50px;
   background-color: #1ABC9C;
@@ -33,6 +34,18 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 30px;
+}
+
+.ds_blackstar {
+  color: #000;
+}
+
+.ds_blackstar::before {
+  background-color: #000;
+}
+
+.ds_blackstar > div {
+  background-color: #fff;
 }
 
 .watergreen {
@@ -63,6 +76,11 @@ h4,
 h5,
 h6 {
   letter-spacing: -0.5px;
+}
+
+p {
+  font-size: 21px;
+  line-height: 26px;
 }
 
 
@@ -107,20 +125,24 @@ h6 {
 
 /* Main - Portfolio */
 
-#portfolio .starline {
-  color: #000;
-}
-
-#portfolio .starline::before {
-  background-color: #000;
-}
-
-#portfolio .starline > div {
-  background-color: #fff;
-}
-
 #portfolio img {
   max-width: 100%;
   border-radius: 10px;
   margin-bottom: 30px;
 }
+
+/* Main - About */
+#about .container {
+  color: #fff;
+  padding-top: 38px;
+  margin-bottom: 30px;
+}
+
+#about a {
+  margin: 50px 0 40px;
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+/* Main - Contact Me */
