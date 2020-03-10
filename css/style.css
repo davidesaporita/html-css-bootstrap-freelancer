@@ -8,12 +8,13 @@ body {
 .starline {
   position: relative;
   height: 30px;
+  margin-bottom: 24px;
 }
 
 .starline::before {
   content: '';
   position: absolute;
-  width: 50%;
+  width: 200px;
   height: 4px;
   padding: 0;
   margin: 0;
@@ -26,12 +27,12 @@ body {
 
 .starline > div {
   position: absolute;
-  width: 100px;
+  width: 50px;
   background-color: #1ABC9C;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .watergreen {
@@ -42,7 +43,18 @@ body {
 h1 {
   font-weight: 700;
   letter-spacing: -1px;
-  font-size: 400%;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 h2,
@@ -57,11 +69,13 @@ h6 {
 /* Header */
 #main-header {
   color: #fff;
+  margin-bottom: 30px;
 }
 
 #main-header .ds_navbar {
   min-height: 90px;
   background-color: #2C3E50;
+  border: none;
 }
 
 #main-header .ds_navbar a {
@@ -80,6 +94,33 @@ h6 {
   font-weight: 600;
 }
 
+/* Header - Presentation */
+#presentation > .container {
+  height: 490px;
+  padding-top: 38px;
+  overflow: hidden;
+}
+
 #presentation img {
-  height: 250px;
+  height: 256px;
+}
+
+/* Main - Portfolio */
+
+#portfolio .starline {
+  color: #000;
+}
+
+#portfolio .starline::before {
+  background-color: #000;
+}
+
+#portfolio .starline > div {
+  background-color: #fff;
+}
+
+#portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
