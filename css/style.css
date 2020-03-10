@@ -96,34 +96,29 @@ p {
 }
 
 #main-header .ds_navbar {
-  min-height: 90px;
   background-color: #2C3E50;
   border: none;
 }
 
 #main-header .ds_navbar a {
   color: #fff;
-  line-height: 60px;
   font-weight: 600;
   font-size: 16px;
 }
 
+#main-header .navbar-header {
+  height: 90px;
+}
+
 #main-header button {
-  margin-top: 22px;
   background-color: transparent;
+  margin-top: 28px;
 }
 
 #main-header a.navbar-brand {
+  margin-top: 21px;
   font-size: 20px;
   font-weight: 600;
-}
-
-#main-header .navbar-collapse {
-  margin-top: 27px;
-}
-
-#main-header .navbar-collapse a {
-  line-height: normal;
 }
 
 /* Header - Presentation */
@@ -223,6 +218,21 @@ p {
 }
 
 /* Responsive - Medium Devices */
+@media all and (min-width: 768px) {
+  #main-header .navbar-collapse {
+    /* margin-top: 27px; */
+  }
+
+  #main-header .ds_navbar .navbar-right a {
+    /* line-height: 60px; */
+  }
+
+  #main-header .navbar-collapse a {
+    /* line-height: normal; */
+  }
+}
+
+/* Responsive - Medium Devices */
 @media all and (min-width: 992px) {
   h1 {
     font-size: 60px;
@@ -271,7 +281,7 @@ p {
 }
 
 /* Responsive - Large Devices */
-@media all and (min-width: 992px) {
+@media all and (min-width: 1200px) {
   h4 {
     font-size: 25px;
   }
